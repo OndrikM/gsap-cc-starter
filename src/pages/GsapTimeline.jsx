@@ -1,5 +1,7 @@
 const GsapTimeline = () => {
-  // TODO: Implement the gsap timeline
+  const timeline = gsap.timeline{
+    repeat: -1, repeatDelay: 1, yoyo: "true"
+  }
 
   return (
     <main>
